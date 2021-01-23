@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,400&display=swap');
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body h3 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+}
+
+.box-1 {
+	background-color: grey;
+	color: white;
+	border-style: solid;
+	border-color: red;
+}
+
+.box-1 p {
+	margin-left:1em;
+	margin-right:1em;
+	line-height: 1.6em;
+}
+
+.container{
+	margin: auto;
+	min-width: 3rem;
+	max-width: 80%;
+}
