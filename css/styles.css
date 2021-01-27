@@ -10328,6 +10328,7 @@ body {
 }
 .contact-section .social {
   margin-top: 5rem;
+  padding-bottom: 5rem;
 }
 .contact-section .social a {
   text-align: center;
@@ -10345,7 +10346,7 @@ body {
   color: #fff;
 }
 
-.contactimage {
+.contactImage {
   background-image:url("../assets/img/contact.jpg");
   background-position: center;
   background-repeat: no-repeat;
