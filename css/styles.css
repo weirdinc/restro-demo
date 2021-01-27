@@ -554,6 +554,7 @@ pre code {
   padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
+  background-color: transparent;
 }
 
 @media (min-width: 576px) {
@@ -3988,7 +3989,7 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #fff;
+  background-color: transparent;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 .nav-tabs .dropdown-menu {
@@ -10122,12 +10123,12 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: transparent;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: #fff;
   border: 1px solid #64a19d;
 }
 #mainNav .navbar-toggler:focus {
@@ -10171,7 +10172,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: transparent;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000000;
@@ -10193,6 +10194,7 @@ body {
     border-bottom: 0.25rem solid #64a19d;
   }
 }
+
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -10341,6 +10343,14 @@ body {
 }
 .contact-section .social a:active {
   color: #fff;
+}
+
+.contactimage {
+  background-image:url("../assets/img/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .footer {
