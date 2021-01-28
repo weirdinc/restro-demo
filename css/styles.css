@@ -10124,6 +10124,8 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
+  position: absolute;
+  z-index: 1005;
   background-color: transparent;
 }
 #mainNav .navbar-toggler {
@@ -10207,6 +10209,14 @@ body {
   border: 0;
 }
 
+.logo-class {
+/*  min-width: 75%;
+  min-height: auto;*/
+  width: 175px;
+  height: 100px; 
+  z-index: 1000;
+  margin-left: 2rem;
+}
 .masthead {
   position: relative;
   width: 100%;
