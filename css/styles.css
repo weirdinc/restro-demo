@@ -10345,7 +10345,7 @@ body {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 254, 0.9);
+  /*background: rgba(255, 255, 254, 0.9);*/
   border-radius: 100%;
   line-height: 3rem;
   /*color: rgba(255, 255, 255, 0.3);*/
@@ -10360,11 +10360,21 @@ body {
 }
 
 .instagram-icon {
-  color: black;
+  background: rgba(1, 1, 254, 0.9);
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    
+  color: white;
 }
 
 .facebook-icon {
-  color: blue;
+  /*background: rgba(255, 255, 254, 0.9);*/
+  background: blue;
+  font-size: 14px;
+  color: white;
 }
 
 .contactImage {
