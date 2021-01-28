@@ -10213,7 +10213,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, var(--custombgcolor) 100%), url("../assets/img/banner.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(250, 246, 227, 0.3) 75%), url("../assets/img/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10328,20 +10328,22 @@ body {
   width: 3rem;
 }
 .contact-section .social {
-  margin-top: 5rem;
-  padding-bottom: 5rem;
+  margin-top: 1rem;
+  /*padding-bottom: 5rem;*/
 }
 .contact-section .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 254, 0.9);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  /*color: rgba(255, 255, 255, 0.3);*/
+  color: black;
 }
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  /*color: rgba(255, 255, 255, 0.5);*/
+  color: black;
 }
 .contact-section .social a:active {
   color: #fff;
@@ -10355,6 +10357,14 @@ body {
   background-size: cover;
 }
 
+.custom-background-color {
+  background-color: var(--custombgcolor);
+}
+
 .footer {
   padding: 5rem 0;
+}
+
+.page-ending-padding {
+  padding-bottom: 5rem;
 }
